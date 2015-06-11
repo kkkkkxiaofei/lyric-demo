@@ -1,10 +1,10 @@
 $().ready(function(){
    	var lyric = [];
    	var musicSrcs = [
-						'/music/我在人民广场吃炸鸡.mp3'
+						'/../music/我在人民广场吃炸鸡.mp3'
 					];
  	var lyricSrcs = [
- 						'/music/我在人民广场吃炸鸡.lrc'
+ 						'/../music/我在人民广场吃炸鸡.lrc'
  					];
 
 
