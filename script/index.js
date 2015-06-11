@@ -15,6 +15,7 @@ $().ready(function(){
 
 	$.get(lyricSrcs[0], function(lrc) {
 	 	lyric = parseLyric(lrc);
+	 	debugger
 	 	loadLyric(lyric);
 		palyMusic(0);
 	});
