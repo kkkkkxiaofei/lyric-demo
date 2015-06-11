@@ -7,6 +7,7 @@ $().ready(function(){
  						'/music/我在人民广场吃炸鸡.lrc'
  					];
 
+
 	function palyMusic(index) {
 		$('.music-play-icon').css('display','none');
 		$('.music-part .music-play-icon').eq(index).css('display','block');
