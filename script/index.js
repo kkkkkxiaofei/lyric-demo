@@ -1,10 +1,10 @@
 $().ready(function(){
    	var lyric = [];
    	var musicSrcs = [
-						'/../music/我怀念的.mp3'
+						'/lyric-demo/music/我怀念的.mp3'
 					];
  	var lyricSrcs = [
- 						'/../music/我怀念的.lrc'
+ 						'/lyric-demo/music/我怀念的.lrc'
  					];
 
 
