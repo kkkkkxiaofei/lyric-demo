@@ -1,10 +1,10 @@
 $().ready(function(){
    	var lyric = [];
    	var musicSrcs = [
-						'/../music/我在人民广场吃炸鸡.mp3'
+						'/../music/我怀念的.mp3'
 					];
  	var lyricSrcs = [
- 						'/../music/我在人民广场吃炸鸡.lrc'
+ 						'/../music/我怀念的.lrc'
  					];
 
 
@@ -16,7 +16,6 @@ $().ready(function(){
 
 	$.get(lyricSrcs[0], function(lrc) {
 	 	lyric = parseLyric(lrc);
-	 	debugger
 	 	loadLyric(lyric);
 		palyMusic(0);
 	});
